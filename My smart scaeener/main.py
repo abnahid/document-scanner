@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 from PIL import Image
 import time
-url = 'http://192.168.0.189:8080/shot.jpg'
+# url = 'url link'
 while True:
     img = request.urlopen(url)
     img_bytes = bytearray(img.read())
